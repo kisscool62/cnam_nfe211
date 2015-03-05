@@ -1,0 +1,45 @@
+%%%% debut macro pour enlever le nom chapitre %%%%
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \interlinepenalty\@M
+    \ifnum \c@secnumdepth >\m@ne
+        \Huge\bfseries \thechapter\quad
+    \fi
+    \Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+
+\def\@makeschapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 40\p@
+  }}
+%
+%\def\addcontentsline@toc#1#2#3{%
+ % \addtocontents{#1}{\protect\thispagestyle{empty}}%
+%   \addtocontents{#1}{\protect\contentsline{#2}{#3}{\thepage}}}
+%\def\addcontentsline#1#2#3{%
+ % \expandafter\@ifundefined{addcontentsline@#1}%
+ % {\addtocontents{#1}{\protect\contentsline{#2}{#3}{\thepage}}}
+ % {\csname addcontentsline@#1\endcsname{#1}{#2}{#3}}}
+
+\makeatother
+%%%% fin macro %%%%
+
+%%%% debut macro %%%%
+\newenvironment{changemargin}[2]{\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{0pt}%
+\setlength{\rightmargin}{0pt}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{0pt plus 1pt}%
+\addtolength{\leftmargin}{#1}%
+\addtolength{\rightmargin}{#2}%
+}\item }{\end{list}}
+%%%% fin macro %%%%

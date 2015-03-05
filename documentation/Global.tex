@@ -1,0 +1,162 @@
+\documentclass[12pt,a4paper,utf8x]{report}
+\usepackage [frenchb]{babel}
+\usepackage[pdftex]{graphicx}
+%\usepackage{path}
+% Pour pouvoir utiliser 
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{url} % Pour avoir de belles url
+\usepackage {geometry}
+
+% Pour mettre du code source
+\usepackage {listings}
+% Pour pouvoir passer en paysage
+\usepackage{lscape}
+
+% Pour pouvoir faire plusieurs colonnes
+\usepackage {multicol}
+% POur crééer un index
+\usepackage{makeidx}
+\usepackage{color}
+
+\usepackage{hyperref}
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Documentation du flux},    % title
+    pdfauthor={AUREGAN Pascal},     % author
+    pdfsubject={Documentation du flux},   % subject of the document
+    pdfcreator={AUREGAN Pascal},   % creator of the document
+    pdfproducer={pdflatex}, % producer of the document
+    pdfkeywords={keywords}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=Ror,          % color of internal links
+    citecolor=green,        % color of links to bibliography
+    filecolor=Ror,      % color of file links
+    urlcolor=Ror           % color of external links
+}
+%fonte computer modern sans seriff
+
+%\usepackage[T1]{fontenc}
+%\usepackage{cmss}
+%\newcommand\sfdefault{cmss}
+\input{./libs/color.tex}
+\input{./libs/commandes.tex}
+
+
+
+
+\makeindex
+
+% Pour les entetes de page
+
+% \usepackage{fancyheadings}
+%\pagestyle{fancy}
+%\renewcommand{\sectionmark}[1]{\markboth{#1}{}} 
+%\renewcommand{\subsectionmark}[1]{\markright{#1}} 
+
+% Pour l'interligne de 1.5
+\usepackage {setspace}
+% Pour les marges de la page
+\geometry{a4paper, top=2.5cm, bottom=3.5cm, left=2.5cm, right=1.5cm, marginparwidth=1.2cm}
+
+\parskip=5pt %% distance entre § (paragraphe)
+\sloppy %% respecter toujours la marge de droite 
+
+% Pour les pénalités :
+\interfootnotelinepenalty=150 %note de bas de page
+\widowpenalty=150 %% veuves et orphelines
+\clubpenalty=150 
+
+%Pour la longueur de l'indentation des paragraphes
+\setlength{\parindent}{15mm}
+
+
+
+\input{./libs/macros.tex}
+
+%Couverture 
+
+\title
+{
+	\normalsize{DESS Xxxxx xxxx xxxxx\\
+	Université de Xxxx Xxxxxx\\
+	2004-2005}\\
+	\vspace{15mm}
+	\Huge{Titre du rapport de stage}
+}
+\author{Nom Auteur\\
+	\vspace{45mm}
+}
+
+
+
+\renewcommand{\familydefault}{\sfdefault}
+\begin{document}
+
+%\setlength{\hoffset}{-1.5cm}
+%\addtolength{\textwidth}{1cm}
+
+\titleTH
+
+
+
+
+%\setlength{\hoffset}{-1.5cm}
+
+	\input{./texte/Remerciements}
+	%\clearpage
+
+	\tableofcontents
+	\clearpage
+
+	% Pour avoir un interligne de 1,5
+	\begin{onehalfspace}
+
+		\input{./texte/Intro}
+
+		\input{./texte/Partie1}
+
+		\input{./texte/Partie2}
+
+%		\input{./texte/Partie3}
+
+%		\input{./texte/Partie4}
+
+		\input{./texte/Conclusion}
+
+		% Pour finir l'interligne de 1,5
+	\end{onehalfspace}
+
+
+\appendix
+\input{./texte/annexe.tex}
+
+
+
+
+
+
+%----------------------------------------
+% Pour la bibliographie
+
+
+% Citer tous les ouvrages/références
+\nocite{*}
+% Trier par ordre d'apparition
+%\bibliographystyle{unsrt}
+% Pour le style de la biblio
+%\bibliographystyle{plain}
+% Ecrire la biblio ici
+%\bibliography{biblio}
+
+\printindex
+
+\end{document}

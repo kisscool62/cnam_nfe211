@@ -1,0 +1,43 @@
+
+\newcommand*{\plogo}{\includegraphics[clip=true, width=40mm, height=20mm]{./images/logo.jpg}}
+%\includegraphics[\textwidth,\textheight]{./images/logo.eps}
+%pour une boite de couleur avec un texte de couleur
+\newcommand{\boitecolor}[3]    {\colorbox{#1}{\textcolor{#2}{#3}}}
+
+%redefinition de la date
+\date{	
+	\normalsize{Lieu du stage\\
+		Adresse du stage\\
+		Ville du stage\\ 
+		\vspace{5mm}	
+		Directeur de recherche : M. DUPONT \\
+		Rapporteur universitaire : Mme DUPUIS
+	}
+}
+
+%Pour le titre joli
+\newcommand*{\titleTH}{\begingroup% T&H Typography
+	\protect\thispagestyle{empty}
+	\begin{changemargin}{-2.5cm}{-1cm}
+		\raggedleft
+%		\vspace*{\baselineskip}
+		{\Large \'Equipe informatique}\\{\small PAU}\\[0.167\textheight]
+
+		{\bfseries Documentation}\\[\baselineskip]
+	%\end{changemargin}
+
+%	\setlength{\textwidth}{208mm}
+%	\begin{changemargin}{-2.5cm}{-1cm}
+		\boitecolor{Ror}{white}{
+			\makebox[208mm][r]{
+				\Huge \textsf{CyrusStar}
+		 }}\\[\baselineskip]
+		%{\small illustrée}\par
+		\vfill
+
+		{\Large \plogo}\par
+		\vspace*{3\baselineskip}
+	\end{changemargin}
+
+	\pagebreak 
+\endgroup}
