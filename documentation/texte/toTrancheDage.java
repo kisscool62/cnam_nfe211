@@ -15,7 +15,6 @@ public class to_tranche_age {
 	}
 	
     public static String perform(int age){
-    	String tranche_age = "-12";
     	if(age < 0){
 		throw new IllegalArgumentException(
 			"age should not be less than 0: " + age);
