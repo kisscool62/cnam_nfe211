@@ -18,7 +18,8 @@ public class to_tranche_age {
     	String tranche_age = "-12";
     	if(age < 0){
 		throw new IllegalArgumentException(
-			"age should not be less than 0: " + age);}
+			"age should not be less than 0: " + age);
+	}
     	if(age < 12){return TRANCHE_AGE.LT_12.label;}
     	if(age >= 12 && age <= 25){return TRANCHE_AGE.B12_25.label;}
     	if(age > 25 && age <= 34){return TRANCHE_AGE.B25_34.label;}
