@@ -111,8 +111,6 @@
 
 %\setlength{\hoffset}{-1.5cm}
 
-	\input{./texte/Remerciements}
-	%\clearpage
 
 	\tableofcontents
 	\clearpage
@@ -125,10 +123,8 @@
 		\input{./texte/Partie1}
 
 		\input{./texte/Partie2}
-
-%		\input{./texte/Partie3}
-
-%		\input{./texte/Partie4}
+		
+		\input{./texte/Partie3}
 
 		\input{./texte/Conclusion}
 
@@ -137,8 +133,11 @@
 
 
 \appendix
-\input{./texte/annexe.tex}
 
+	\begin{onehalfspace}
+\input{./texte/annexe.tex}
+		% Pour finir l'interligne de 1,5
+	\end{onehalfspace}
 
 
 
