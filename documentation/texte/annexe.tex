@@ -1,131 +1,97 @@
 \chapter{Annexes}
-\section{Fournisseurs agrégés}\label{fournisseurs} 
-\subsection{Class\'es par ordre alphab\'etique}
-\begin{itemize}
-\item ADEQUITY
-\item AFER
-\item AGF asset management
-\item AMF
-\item AVIVA asset management
-\item AXA
-\item BNP asset management
-\item BOURSORAMA
-\item BANQUE POPULAIRE asset management
-\item CRÉDIT AGRICOLE asset management
-\item CARDIF
-\item CARMIGNAC
-\item CAISSE D'ÉPARGNE
-\item CIC
-\item CPR asset management
-\item CRÉDIT SUISSE asset management
-\item ECB \textit{(pour les devises)}
-\item ECHIQUIER
-\item ECOFI
-\item EURONEXT
-\item FIDELITY
-\item FORTIS
-\item TEMPLETON
-\item GAN
-\item GENERALI
-\item HSBC
-\item INVESCO
-\item La Tribune
-\item LCF \textit{(La Compagnie Financière Edmond Rothschild)}
-\item Le Crédit Lyonnais asset management
-\item LODH
-\item LYXOR
-\item MMA
-\item Morningstar
-\item ODDO
-\item OFFIVALMO
-\item Banque d'Orsay
-\item RCB \textit{(Rothschild et compagnie)}
-\item RICHELIEU
-\item SOCIETE GÉNÉRALE asset management
-\item S{\&}P \textit{(Standards and Poors)}
-\item SURAVENIR
-\item SYCOMORE
-\item UBS asset management
-\item UFG asset management
-\end{itemize}
-\subsection{Class\'es par priorit\'e d\'ecroissante}
-\textit{(source : base de production)}\\
-%\begin{tabular}{c|c|c}
-%id & nom du fournisseur & priorit\'e\\
-%\hline
-%46 & adequity & 44 \\
-%43 & rcb & 43\\ 
-%42 & orsay & 42\\
-%41 & cic{\_}sicav & 41\\
-%40 & morningstar & 40\\
-%39 & lodh & 38\\
-%38 & boursorama & 37\\
-%37 & sp & 36\\
-%36 & latribune & 35\\
-%35 & afer & 34\\
-%34 & richelieu & 33\\
-%33 & ubs{\_}am & 32\\
-%32 & lyxor & 31\\
-%31 & lcl{\_}am & 30\\
-%30 & ofivalmo & 29\\
-%3 & axa{\_}im & 28\\
-%28 & hsbc & 27\\
-%27 & bnp{\_}am & 26\\
-%26 & ecofi & 25\\
-%25 & ca{\_}am & 24\\
-%24 & fr{\_}templeton & 23\\
-%23 & carmignac & 22\\
-%22 & cpr{\_}am & 21\\
-%21 & euronext & 20\\
-%\end{tabular}
-%
-%\begin{tabular}{c|c|c}
-%id & nom du fournisseur & priorit\'e\\
-%\hline
-%20 & gan & 19\\
-%19 & ce & 18\\
-%18 & bp{\_}am & 17\\
-%17 & sycomore & 16\\
-%16 & mma & 15\\
-%15 & suravenir & 14\\
-%14 & generali & 13\\
-%13 & fidelity & 12\\
-%12 & oddo & 11\\
-%11 & aviva{\_}am & 10\\
-%10 & cs{\_}am & 9\\
-%9 & agf{\_}am & 8\\
-%8 & fortis & 7\\
-%7 & lcf & 6\\
-%6 & invesco & 5\\
-%5 & echiquier & 4\\
-%4 & ufg{\_}am & 3\\
-%29 & cardif & 2\\
-%2 & sgam & 1\\
-%1 & amf & 0\\
-%\end{tabular}
-\begin{tabular}{c|c|c||c|c|c}
-id & nom du fournisseur & priorit\'e & id & nom du fournisseur & priorit\'e\\
-\hline
-46 & adequity & 44 & 22 & cpr{\_}am & 21\\
-43 & rcb & 43& 	21 & euronext & 20\\
-42 & orsay & 42&	20 & gan & 19\\
-41 & cic{\_}sicav & 41&	19 & ce & 18\\
-40 & morningstar & 40&	18 & bp{\_}am & 17\\
-39 & lodh & 38&	17 & sycomore & 16\\
-38 & boursorama & 37&	16 & mma & 15\\
-37 & sp & 36&	15 & suravenir & 14\\
-36 & latribune & 35&	14 & generali & 13\\
-35 & afer & 34&	13 & fidelity & 12\\
-34 & richelieu & 33&	12 & oddo & 11\\
-33 & ubs{\_}am & 32&	11 & aviva{\_}am & 10\\
-32 & lyxor & 31&	10 & cs{\_}am & 9\\
-31 & lcl{\_}am & 30&	9 & agf{\_}am & 8\\
-30 & ofivalmo & 29&	8 & fortis & 7\\
-3 & axa{\_}im & 28&	7 & lcf & 6\\
-28 & hsbc & 27&	6 & invesco & 5\\
-27 & bnp{\_}am & 26&	5 & echiquier & 4\\
-26 & ecofi & 25&	4 & ufg{\_}am & 3\\
-25 & ca{\_}am & 24&	29 & cardif & 2\\
-24 & fr{\_}templeton & 23&	2 & sgam & 1\\
-23 & carmignac & 22&	1 & amf & 0\\
-\end{tabular}
+\section{Code R ayant généré les données}
+
+\lstset{language=bash}
+\lstset{frame=shadowbox}
+\begin{lstlisting}
+library(dplyr)
+library(tidyr)
+
+
+prenoms <- read.csv('liste_des_prenoms_par_annee.csv', sep = ';')
+
+head(prenoms)
+hist(prenoms$nombre)
+summary(prenoms$nombre)
+hist(x = prenoms$annee)
+nb_clients <- length(prenoms$prenoms)
+
+
+X <- 10 + rnorm(nb_clients, mean=5, sd = 1)
+Y <- 5 + rnorm(nb_clients, mean=20, sd = 2)
+
+U <- rbinom(n=nb_clients, size=1, prob=0.6)
+summary(U)
+
+
+hist(X)
+
+
+hist(Y)
+Z <- U * X + ((U-1)*-1 + Y)
+hist(Z)
+age <- floor(Z)
+clients <- cbind(prenoms, age)
+head(clients)
+hist(clients$age)
+
+
+type<-floor(1+rnorm(nb_clients, mean=1.4, sd=0.6)%%3)
+hist(type)
+clients <- cbind(clients, type)
+
+livres <- c(6, 7, 1, 2, 4, 8, 3, 5)
+
+# distribution sur livres
+livres_achetes <- floor(rnorm(nb_clients, mean = 3.5, sd=1.5))
+livres_achetes <- sapply(livres_achetes, FUN = function(x) max(0,x))
+livres_achetes <- sapply(livres_achetes, FUN = function(x) min(7,x))
+hist(livres_achetes)
+
+
+clients <- cbind(clients, livres_achetes)
+head(clients)
+
+# lien vers la table livre
+livre <- sapply(livres_achetes, FUN=function(x)livres[x+1])
+clients <- cbind(clients, livre)
+
+
+hist(clients$livre)
+
+boutiques <- floor(runif(nb_clients, min=1, max=25))
+clients <- cbind(clients, boutiques)
+hist(boutiques)
+
+client_id <- 1:length(clients$prenoms)
+
+clients <- cbind(clients, client_id)
+
+#last date in the data
+end_date <- as.Date('2015-01-01')
+
+date_achat <- end_date - runif(n=nb_clients, max=365*5, min=1)
+
+
+clients <- cbind(clients, date_achat)
+clients <- mutate(clients, prenom = prenoms)
+
+clients_for_csv <- select(clients, id=client_id, age, prenom)
+write.csv(x=clients_for_csv, file='clients.csv', row.names=FALSE)
+nb_clients + 1 - client_id
+
+clients <- mutate(clients, facture_id = (nb_clients + 1 - client_id))
+
+facture_for_csv <- select(clients, id=facture_id, date_achat, boutique_id=boutiques, client_id=client_id, livre_id=livre)
+write.csv(x=facture_for_csv, file='factures.csv', row.names=FALSE)
+
+villes <- read.csv(file='ville.csv')
+departements <- read.csv('departement.csv')
+regions <- read.csv('region.csv')
+\end{lstlisting}
+
+\section{Routine java toTrancheDage.java}
+
+\lstset{language=java}
+\lstset{frame=shadowbox}
+\lstinputlisting[caption=toTrancheDage.java]{./texte/toTrancheDage.java}

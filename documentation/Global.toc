@@ -1,64 +1,33 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
-\contentsline {chapter}{\numberline {2}Sp\IeC {\'e}cifications}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}Sp\IeC {\'e}cification fonctionnelle}{6}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Pr\IeC {\'e}sentation}{6}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Processus d'obtention des donn\IeC {\'e}es}{6}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Processus d'int\IeC {\'e}gration des donn\IeC {\'e}es et base de donn\IeC {\'e}es associ\IeC {\'e}e}{7}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Processus d'agr\IeC {\'e}gation et de pr\IeC {\'e}paration des donn\IeC {\'e}es, base de donn\IeC {\'e}es associ\IeC {\'e}e et calcul des taux d'\IeC {\'e}volution}{7}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Processus de maintenance de la base}{7}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}R\IeC {\^o}le et identification des diff\IeC {\'e}rents fichiers}{8}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Pr\IeC {\'e}sentation}{8}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Bases de donn\IeC {\'e}es}{8}{subsection.2.2.2}
-\contentsline {subsubsection}{Base de donn\IeC {\'e}es flux{\_}vls}{8}{section*.2}
-\contentsline {subsubsection}{Base de donn\IeC {\'e}es flux{\_}vls{\_}eur}{9}{section*.3}
-\contentsline {subsubsection}{Programmes}{9}{section*.4}
-\contentsline {paragraph}{/home/postgres/db/script/do{\_}back{\_}up.sh}{9}{section*.5}
-\contentsline {paragraph}{/home/malko/flux{\_}vls/outils/create{\_}isin{\_}perf{\_}arretee.rb}{10}{section*.6}
-\contentsline {subsection}{\numberline {2.2.3}Processus d'obtention des donn\IeC {\'e}es}{11}{subsection.2.2.3}
-\contentsline {subsubsection}{Programmes}{11}{section*.7}
-\contentsline {paragraph}{{\#}/imports/import{\_}vl.sh}{11}{section*.8}
-\contentsline {paragraph}{robots}{12}{section*.9}
-\contentsline {paragraph}{{\#}/imports/manage{\_}robot.sh}{12}{section*.10}
-\contentsline {paragraph}{{\#}/fichiers/import{\_}fournisseur.txt $\delimiter "026A30C $ taux{\_}ecb.txt}{13}{section*.11}
-\contentsline {subsubsection}{Fichiers logs}{13}{section*.12}
-\contentsline {paragraph}{{\#}/imports/log/imports.log}{13}{section*.13}
-\contentsline {paragraph}{{\#}/imports/log/log{\_}sp.log}{13}{section*.14}
-\contentsline {subsection}{\numberline {2.2.4}Processus d'int\IeC {\'e}gration des donn\IeC {\'e}es}{13}{subsection.2.2.4}
-\contentsline {subsubsection}{Programmes}{13}{section*.15}
-\contentsline {paragraph}{{\#}/import{\_}ds{\_}bdd.rb}{13}{section*.16}
-\contentsline {paragraph}{{\#}/imports/backup{\_}import{\_}files{\_}bdd.rb}{13}{section*.17}
-\contentsline {subsubsection}{Fichiers logs}{13}{section*.18}
-\contentsline {paragraph}{{\#}/imports/log/imports.log}{13}{section*.19}
-\contentsline {subparagraph}{{\#}/import{\_}ds{\_}bdd.rb}{14}{section*.20}
-\contentsline {subparagraph}{{\#}/imports/backup{\_}import{\_}files{\_}bdd.rb}{14}{section*.21}
-\contentsline {subsection}{\numberline {2.2.5}Processus d'agr\IeC {\'e}gation, de pr\IeC {\'e}paration des donn\IeC {\'e}es et calcul des taux d'\IeC {\'e}volution}{14}{subsection.2.2.5}
-\contentsline {subsubsection}{Programmes}{14}{section*.22}
-\contentsline {paragraph}{{\#}/imports/import{\_}mssql/import{\_}mssql.sh}{14}{section*.23}
-\contentsline {paragraph}{Sur ServeurBDD :}{14}{section*.24}
-\contentsline {subparagraph}{C:{\textbackslash }workspace{\textbackslash }python{\textbackslash }supports{\_}utilises{\textbackslash }script{\textbackslash }do{\_}maj{\_}supports.bat\\}{14}{section*.25}
-\contentsline {subparagraph}{C:{\textbackslash }workspace{\textbackslash }python{\textbackslash }supports{\_}utilises{\textbackslash }script{\textbackslash }supports{\_}utilises.py\\}{14}{section*.26}
-\contentsline {subparagraph}{\textbf {http://192.168.0.1:81/supports/supports.xml}\\}{15}{section*.27}
-\contentsline {paragraph}{{\#}/outils/chmt{\_}isin/chmt{\_}isin.sh}{16}{section*.28}
-\contentsline {paragraph}{{\#}/imports/import{\_}mssql/import{\_}mssql.rb}{16}{section*.29}
-\contentsline {paragraph}{{\#}/imports/import{\_}mssql/comp{\_}perf.rb}{16}{section*.30}
-\contentsline {paragraph}{{\#}/mail/mail.py}{16}{section*.31}
-\contentsline {subsubsection}{Fichiers logs}{16}{section*.32}
-\contentsline {paragraph}{{\#}/imports/import{\_}mssql/log/log{\_}cron.log}{16}{section*.33}
-\contentsline {paragraph}{{\#}/imports/import{\_}mssql/log/log{\_}mssql.log}{17}{section*.34}
-\contentsline {paragraph}{{\#}/imports/import{\_}mssql/log/log{\_}comp.log}{17}{section*.35}
-\contentsline {paragraph}{{\#}/imports/import{\_}mssql/log/log{\_}mail.log}{17}{section*.36}
-\contentsline {chapter}{\numberline {3}Maintenance de l'application}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Comment arr\IeC {\^e}ter la situation \IeC {\`a} une date choisie}{18}{section.3.1}
-\contentsline {section}{\numberline {3.2}Comment ajouter une situation}{18}{section.3.2}
-\contentsline {section}{\numberline {3.3}Comment ajouter ou r\IeC {\'e}parer un robot?}{18}{section.3.3}
-\contentsline {paragraph}{Suggestions : }{19}{section*.37}
-\contentsline {section}{\numberline {3.4}Comment v\IeC {\'e}rifier les r\IeC {\'e}sultats?}{19}{section.3.4}
-\contentsline {section}{\numberline {3.5}Comment traiter les OST/Changement ISIN?}{19}{section.3.5}
-\contentsline {section}{\numberline {3.6}Comment s'occuper du flux?}{20}{section.3.6}
-\contentsline {section}{\numberline {3.7}A quelle heure peut on v\IeC {\'e}rifier les donn\IeC {\'e}es?}{20}{section.3.7}
-\contentsline {chapter}{\numberline {4}Conclusion}{21}{chapter.4}
-\contentsline {chapter}{\numberline {A}Annexes}{22}{appendix.A}
-\contentsline {section}{\numberline {A.1}Fournisseurs agr\IeC {\'e}g\IeC {\'e}s}{22}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Class\'es par ordre alphab\'etique}{22}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Class\'es par priorit\'e d\'ecroissante}{23}{subsection.A.1.2}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Jeu de donn\IeC {\'e}es de la base OLTP}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Mod\IeC {\`e}le relationnel}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Pr\IeC {\'e}sentation}{4}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {3}TALEND Open Studio for Data Integration 5.6}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Cr\IeC {\'e}ation du mod\IeC {\`e}le OLAP}{6}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Question \IeC {\`a} r\IeC {\'e}pondre}{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Mod\IeC {\`e}le ROLAP}{6}{subsection.3.1.2}
+\contentsline {subsubsection}{Table de faits vente}{7}{section*.2}
+\contentsline {paragraph}{Indicateurs}{7}{section*.3}
+\contentsline {subparagraph}{fonctions d'agr\IeC {\'e}gat}{7}{section*.4}
+\contentsline {paragraph}{Dimension client}{7}{section*.5}
+\contentsline {subparagraph}{hi\IeC {\'e}rarchie}{7}{section*.6}
+\contentsline {paragraph}{Dimension boutique}{7}{section*.7}
+\contentsline {subparagraph}{hi\IeC {\'e}rarchie}{8}{section*.8}
+\contentsline {paragraph}{Dimension livre}{8}{section*.9}
+\contentsline {subparagraph}{hi\IeC {\'e}rarchie}{8}{section*.10}
+\contentsline {paragraph}{Dimension Temps}{8}{section*.11}
+\contentsline {subparagraph}{hi\IeC {\'e}rarchie}{8}{section*.12}
+\contentsline {section}{\numberline {3.2}Int\IeC {\'e}gration avec TALEND}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}T\IeC {\'e}l\IeC {\'e}chargement Installation}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}M\IeC {\'e}thode utilis\IeC {\'e}e}{8}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Configuration des sources de donn\IeC {\'e}es}{9}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}Reporting}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}SAS}{10}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Pr\IeC {\'e}sentation}{10}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Processus d'int\IeC {\'e}gration des donn\IeC {\'e}es et base de donn\IeC {\'e}es associ\IeC {\'e}e}{10}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Processus de maintenance de la base}{10}{subsection.4.1.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{11}{chapter.5}
+\contentsline {chapter}{\numberline {A}Annexes}{12}{appendix.A}
+\contentsline {section}{\numberline {A.1}Code R ayant g\IeC {\'e}n\IeC {\'e}r\IeC {\'e} les donn\IeC {\'e}es}{12}{section.A.1}
+\contentsline {section}{\numberline {A.2}Routine java toTrancheDage.java}{14}{section.A.2}

@@ -1,13 +1,14 @@
 \chapter{Introduction}
 
-CyrusStar est un ensemble d'applications permettant de créer un flux de valeurs liquidatives de fonds, puis de l'observer via une application Web.\\
-On peut considérer que le flux global appellé flux{\_}vls ( $\approx$ 20 000 fonds) est ensuite restreint à l'ensemble des fonds de CYRUS ( $\approx$ 1 000 fonds). L'application web porte uniquement sur la partie restreinte du flux.
-La présente documentation se divisera donc en deux parties. La première partie sera consacrée au flux de données en lui même, obtention des données, intégration des données et agrégation des données afin ne fournir à l'utilisateur que les données susceptibles de le concerner. La deuxième partie sera quant à elle consacrée à l'application web CyrusStar.\\
-Chacune des parties sera divisée en trois sous parties:
-\begin{list}{-}{}
-	\item[-] Spécifications.
-	\item[-] Rôle et identifiaction des différents fichiers.
-	\item[-] Maintenance de l'application.
-\end{list}
+Le but de se projet est de mettre en place une chaine décisionnelle. L'objectif de ce projet n'étant pas de pousser dans ses retranchements les outils de la chaine décisionnelle, il a été décidé de créer de toute pièce un jeu de données. Le thème de ce jeu de données est l'achat de BD comme dans le cours. 
+La base opérationnelle décrit les factures d'un ensemble librairies en France dont les clients sont connus.
+La chaine décisionnelle doit être en mesure de répondre in fine à la question: analyser les ventes de BD en France en fonction des clients, du lieu et date d'achat.
+La couche opérationnelle est assurée par une base de données de fichier csv et une base de données PostgresSQL. 
+
+Pour la couche ETL, il a été choisi TALEND Data Integration. 
+
+La couche reporting étudiée lors de ce projet est assurée par SAS Studio Version Etudiante.
+
+\includegraphics[clip=true, width=120mm, height=80mm]{images/chaine.png} 
 
 \clearpage
