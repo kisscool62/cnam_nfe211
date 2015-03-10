@@ -10,12 +10,18 @@
 \BOOKMARK [2][-]{subsection.3.2.1}{T\351l\351chargement Installation}{section.3.2}% 10
 \BOOKMARK [2][-]{subsection.3.2.2}{M\351thode utilis\351e}{section.3.2}% 11
 \BOOKMARK [2][-]{subsection.3.2.3}{Configuration des sources de donn\351es}{section.3.2}% 12
-\BOOKMARK [0][-]{chapter.4}{Reporting}{}% 13
-\BOOKMARK [1][-]{section.4.1}{SAS}{chapter.4}% 14
-\BOOKMARK [2][-]{subsection.4.1.1}{Pr\351sentation}{section.4.1}% 15
-\BOOKMARK [2][-]{subsection.4.1.2}{Processus d'int\351gration des donn\351es et base de donn\351es associ\351e}{section.4.1}% 16
-\BOOKMARK [2][-]{subsection.4.1.3}{Processus de maintenance de la base}{section.4.1}% 17
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 18
-\BOOKMARK [0][-]{appendix.A}{Annexes}{}% 19
-\BOOKMARK [1][-]{section.A.1}{Code R ayant g\351n\351r\351 les donn\351es}{appendix.A}% 20
-\BOOKMARK [1][-]{section.A.2}{Routine java toTrancheDage.java}{appendix.A}% 21
+\BOOKMARK [2][-]{subsection.3.2.4}{Dimension Boutique}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.5}{Dimension Livre}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.6}{Dimension Client}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.7}{Dimension Temps}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.8}{Table de faits vente}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.9}{Conlusion sur l'utilisation de TALEND}{section.3.2}% 18
+\BOOKMARK [0][-]{chapter.4}{Reporting}{}% 19
+\BOOKMARK [1][-]{section.4.1}{SAS}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.1.1}{Pr\351sentation}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.2}{Processus d'int\351gration des donn\351es et base de donn\351es associ\351e}{section.4.1}% 22
+\BOOKMARK [2][-]{subsection.4.1.3}{Processus de maintenance de la base}{section.4.1}% 23
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 24
+\BOOKMARK [0][-]{appendix.A}{Annexes}{}% 25
+\BOOKMARK [1][-]{section.A.1}{Code R ayant g\351n\351r\351 les donn\351es}{appendix.A}% 26
+\BOOKMARK [1][-]{section.A.2}{Routine java toTrancheDage.java}{appendix.A}% 27

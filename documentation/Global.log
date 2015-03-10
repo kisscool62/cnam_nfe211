@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.7)  8 MAR 2015 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.7)  9 MAR 2015 23:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,7 +467,7 @@ Overfull \hbox (14.53583pt too wide) in paragraph at lines 107--107
  [][][][][][][]
  []
 
-<./images/logo.jpg, id=88, 290.08376pt x 174.6525pt>
+<./images/logo.jpg, id=108, 290.08376pt x 174.6525pt>
 File: ./images/logo.jpg Graphic file (type jpg)
  <use ./images/logo.jpg>
 Package pdftex.def Info: ./images/logo.jpg used on input line 107.
@@ -483,32 +483,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
+ [2
+
+])
 \tf@toc=\write5
 \openout5 = `Global.toc'.
 
- [2
-
-] (./texte/Intro.tex
+ [3] (./texte/Intro.tex
 Chapitre 1.
-<images/chaine.png, id=126, 536.0025pt x 261.22594pt>
+<images/chaine.png, id=155, 523.9575pt x 263.48438pt>
 File: images/chaine.png Graphic file (type png)
  <use images/chaine.png>
 Package pdftex.def Info: images/chaine.png used on input line 12.
-(pdftex.def)             Requested size: 341.42921pt x 227.62744pt.
+(pdftex.def)             Requested size: 341.43979pt x 227.63342pt.
 
-[3
+[4
 
 
  <./images/chaine.png>]) (./texte/Partie1.tex
 Chapitre 2.
-<./images/library.png, id=133, 384.6872pt x 385.44pt>
+<./images/library.png, id=164, 384.6872pt x 385.44pt>
 File: ./images/library.png Graphic file (type png)
 
 <use ./images/library.png>
 Package pdftex.def Info: ./images/library.png used on input line 6.
 (pdftex.def)             Requested size: 341.45482pt x 227.61935pt.
- [4
+ [5
 
 
  <./images/library.png>]
@@ -517,102 +517,173 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-) [5])
+) [6])
 (./texte/Partie2.tex
 Chapitre 3.
-<images/Talend.png, id=151, 298.86656pt x 298.86656pt>
+<images/Talend.png, id=183, 298.86656pt x 298.86656pt>
 File: images/Talend.png Graphic file (type png)
  <use images/Talend.png>
 Package pdftex.def Info: images/Talend.png used on input line 13.
 (pdftex.def)             Requested size: 341.45473pt x 227.62433pt.
 
-[6
+[7
 
 
-] [7 <./images/Talend.png>] [8] [9]) (./texte/Partie3.tex
+] [8 <./images/Talend.png>]
+<images/db_connection.PNG, id=204, 132.495pt x 201.00093pt>
+File: images/db_connection.PNG Graphic file (type png)
+
+<use images/db_connection.PNG>
+Package pdftex.def Info: images/db_connection.PNG used on input line 96.
+(pdftex.def)             Requested size: 132.49466pt x 201.00043pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+[9] <images/csv.PNG, id=215, 502.12593pt x 175.40532pt>
+File: images/csv.PNG Graphic file (type png)
+ <use images/csv.PNG>
+Package pdftex.def Info: images/csv.PNG used on input line 99.
+(pdftex.def)             Requested size: 301.27788pt x 105.24399pt.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
+)
+<images/ville_mappingcsv.PNG, id=216, 512.66531pt x 200.24812pt>
+File: images/ville_mappingcsv.PNG Graphic file (type png)
+
+<use images/ville_mappingcsv.PNG>
+Package pdftex.def Info: images/ville_mappingcsv.PNG used on input line 108.
+(pdftex.def)             Requested size: 307.60155pt x 120.1498pt.
+ [10 <./images/db_connection.PNG> <./images/csv.PNG>] <images/dimension_livre.P
+NG, id=225, 530.73282pt x 198.7425pt>
+File: images/dimension_livre.PNG Graphic file (type png)
+
+<use images/dimension_livre.PNG>
+Package pdftex.def Info: images/dimension_livre.PNG used on input line 117.
+(pdftex.def)             Requested size: 318.44214pt x 119.24641pt.
+
+<images/dimension_client.PNG, id=226, 389.95688pt x 73.02281pt>
+File: images/dimension_client.PNG Graphic file (type png)
+
+<use images/dimension_client.PNG>
+Package pdftex.def Info: images/dimension_client.PNG used on input line 124.
+(pdftex.def)             Requested size: 233.97592pt x 43.81401pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+[11 <./images/ville_mappingcsv.PNG> <./images/dimension_livre.PNG>]
+<images/dimension_temps.PNG, id=237, 823.57687pt x 59.47218pt>
+File: images/dimension_temps.PNG Graphic file (type png)
+
+<use images/dimension_temps.PNG>
+Package pdftex.def Info: images/dimension_temps.PNG used on input line 132.
+(pdftex.def)             Requested size: 494.14993pt x 35.68358pt.
+
+Overfull \hbox (53.13219pt too wide) in paragraph at lines 132--135
+[][] 
+ []
+
+<images/table_faits_vente.PNG, id=238, 531.48563pt x 467.49657pt>
+File: images/table_faits_vente.PNG Graphic file (type png)
+
+<use images/table_faits_vente.PNG>
+Package pdftex.def Info: images/table_faits_vente.PNG used on input line 144.
+(pdftex.def)             Requested size: 372.0374pt x 327.24536pt.
+ [12 <./images/dimension_client.PNG> <./images/dimension_temps.PNG>] [13 <./ima
+ges/table_faits_vente.PNG>])
+(./texte/Partie3.tex
 Chapitre 4.
-[10
+[14
 
 
 ]) (./texte/Conclusion.tex
 Chapitre 5.
-) (./texte/annexe.tex [11
+) (./texte/annexe.tex [15
 
 
 ]
 Annexe A.
-LaTeX Font Info:    Try loading font information for OML+cmss on input line 11.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(./texte/client.R
+LaTeX Font Info:    Try loading font information for OML+cmss on input line 6.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 6.
 
-LaTeX Font Info:    No file OMLcmss.fd. on input line 11.
 
 LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 11.
+(Font)              for symbol `textless' on input line 6.
 
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 31.
+[16
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 31.
+]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 27.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 27.
+
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 31.
+(Font)              for symbol `textasteriskcentered' on input line 27.
 
-[12
-
-]
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 45.
-
-[13]
-Overfull \hbox (2.75229pt too wide) in paragraph at lines 83--85
+[17]
+Overfull \hbox (2.75229pt too wide) in paragraph at lines 79--81
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (369.35165pt too wide) in paragraph at lines 85--86
+Overfull \hbox (369.35165pt too wide) in paragraph at lines 81--82
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
-(./texte/toTrancheDage.java [14]))
+) [18] (./texte/toTrancheDage.java))
 No file Global.ind.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
-[15]
+[19
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  (./Global.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
-Package rerunfilecheck Info: File `Global.out' has not changed.
-(rerunfilecheck)             Checksum: 76C6766D47501CE90AB756A3AB513D42;1519.
 
+
+Package rerunfilecheck Warning: File `Global.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Global.out':
+(rerunfilecheck)             Before: 16CE7EBE4CAA938CCCA3E730BA6A04EA;1873
+(rerunfilecheck)             After:  75598F9D0E85D9E1A9AB2EBD829C890B;1964.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 9639 strings out of 493109
- 138917 string characters out of 6135005
- 280640 words of memory out of 5000000
- 12785 multiletter control sequences out of 15000+600000
- 9611 words of font info for 34 fonts, out of 8000000 for 9000
+ 10317 strings out of 493109
+ 146519 string characters out of 6135005
+ 283255 words of memory out of 5000000
+ 13427 multiletter control sequences out of 15000+600000
+ 9252 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,6n,49p,393b,2002s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,6n,49p,657b,1992s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Global.pdf (15 pages, 159913 bytes).
+Output written on Global.pdf (19 pages, 229942 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 354 compressed objects within 4 object streams
- 168 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 409 compressed objects within 5 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
