@@ -1,26 +1,26 @@
-id;nom;adresse;ville;departement;region
-1;Au vieux livre;16 grand rue;Laon;Aisne;Picardie
-2;Au livre neuf;23 rue de l'eglise;Saint Quentin;Aisne;Picardie
-3;Au vieux livre;16 impasse des iris;Soissons;Aisne;Picardie
-4;Le livre dans la ville;113 rue de paris;Beauvais;Oise;Picardie
-5;Le livre dans la ville;56 avenue victor Hugo;Compiègne;Oise;Picardie
-6;Un livre ca rend fou;32 grand place;Clermont;Oise;Picardie
-7;Sans lys;17 rue principale;Senlis;Oise;Picardie
-8;Le bon livre;65 rue quelle est bien;Amiens;Somme;Picardie
-9;A quand un livre?;99 rue d'ici;Caen;Calvados;Basse Normandie
-10;La grande frise;560 rue d'ailleurs;Bayeux;Calvados;Basse Normandie
-11;Le débarquement;6 rue roger salengro;Avranche;Manche;Basse Normandie
-12;Un livre et du yaourt;63 rue de la banque;Saint malo;Ile et Vilaine;Bretagne
-13;nard;77 rue de la poste;Dinard;Ile et Vilaine;Bretagne
-14;Le compte du pere noel;8 rue de cette ville loin;Rennes;Ile et Vilaine;Bretagne
-15;La bretagne ça vous gagne;59 rue pas loin;Saint brieuc;Côtes d'Armor;Bretagne
-16;Lannion ca fait mal;2 rue mais c'est pas vrai;Lannion;Côtes d'Armor;Bretagne
-17;Librairie en avant guingamp;6 rue de et deux font quatre;Guingamp;Côtes d'Armor;Bretagne
-18;La librairie du bout du monde;44 rue main street usa;Brest;Finistère;Bretagne
-19;Le bon livre;33 rue de Lannion;Quimper;Finistère;Bretagne
-20;La bonne vanne;88 rue trop belle;Vannes;Morbihan;Bretagne
-21;Le livre;67 rue trop bien;Concarneau;Morbihan;Bretagne
-22;La librairie du marais;21 rue sans nom;75004;Paris;Ile de France
-23;Picpus book;98 rue sans numéro;75012;Paris;Ile de France
-24;La librairie de l'Elysée;21 rue avec numéros;75008;Paris;Ile de France
-25;Bouquiniste du chatelet;54 rue sans numéro 54;75001;Paris;Ile de France
+id,nom,adresse,ville,departement,region
+1,Au vieux livre,16 grand rue,Laon,Aisne,Picardie
+2,Au livre neuf,23 rue de l'eglise,Saint Quentin,Aisne,Picardie
+3,Au vieux livre,16 impasse des iris,Soissons,Aisne,Picardie
+4,Le livre dans la ville,113 rue de paris,Beauvais,Oise,Picardie
+5,Le livre dans la ville,56 avenue victor Hugo,Compiègne,Oise,Picardie
+6,Un livre ca rend fou,32 grand place,Clermont,Oise,Picardie
+7,Sans lys,17 rue principale,Senlis,Oise,Picardie
+8,Le bon livre,65 rue quelle est bien,Amiens,Somme,Picardie
+9,A quand un livre?,99 rue d'ici,Caen,Calvados,Basse Normandie
+10,La grande frise,560 rue d'ailleurs,Bayeux,Calvados,Basse Normandie
+11,Le débarquement,6 rue roger salengro,Avranche,Manche,Basse Normandie
+12,Un livre et du yaourt,63 rue de la banque,Saint malo,Ile et Vilaine,Bretagne
+13,nard,77 rue de la poste,Dinard,Ile et Vilaine,Bretagne
+14,Le compte du pere noel,8 rue de cette ville loin,Rennes,Ile et Vilaine,Bretagne
+15,La bretagne ça vous gagne,59 rue pas loin,Saint brieuc,Côtes d'Armor,Bretagne
+16,Lannion ca fait mal,2 rue mais c'est pas vrai,Lannion,Côtes d'Armor,Bretagne
+17,Librairie en avant guingamp,6 rue de et deux font quatre,Guingamp,Côtes d'Armor,Bretagne
+18,La librairie du bout du monde,44 rue main street usa,Brest,Finistère,Bretagne
+19,Le bon livre,33 rue de Lannion,Quimper,Finistère,Bretagne
+20,La bonne vanne,88 rue trop belle,Vannes,Morbihan,Bretagne
+21,Le livre,67 rue trop bien,Concarneau,Morbihan,Bretagne
+22,La librairie du marais,21 rue sans nom,75004,Paris,Ile de France
+23,Picpus book,98 rue sans numéro,75012,Paris,Ile de France
+24,La librairie de l'Elysée,21 rue avec numéros,75008,Paris,Ile de France
+25,Bouquiniste du chatelet,54 rue sans numéro 54,75001,Paris,Ile de France

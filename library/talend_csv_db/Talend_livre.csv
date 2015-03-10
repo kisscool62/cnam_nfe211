@@ -1,9 +1,9 @@
-id;nom;genre
-1;Asterix;BD
-2;Tintin;BD
-3;Chasses de l'enfer;Roman
-4;Gaston Lagaffe;BD
-5;Design Patterns;Cours
-6;Domain Driven Design;Cours
-7;Blake et Mortimer;BD
-8;Leo Loden;BD
+id,nom,genre
+1,Asterix,BD
+2,Tintin,BD
+3,Chasses de l'enfer,Roman
+4,Gaston Lagaffe,BD
+5,Design Patterns,Cours
+6,Domain Driven Design,Cours
+7,Blake et Mortimer,BD
+8,Leo Loden,BD
