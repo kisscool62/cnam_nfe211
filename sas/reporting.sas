@@ -72,7 +72,51 @@ proc sgplot data=vente_client;
 	vbar tranche_age / transparency=0.5 ;
 run;
 
-/*Dans quelle ville vend-on le plus en 2014*/
+/*Dans quelle ville fait on le plus gros chiffre d'affaire de livre en 2014*/
+proc sql;
+create table vente_boutique_temps_2014_somme as
+select sv.id, tmp.annee, tmp.mois, sum(sv.prix) as CA_VILLE, bout.ville from work.sas_vente sv
+full join work.sas_boutique bout 
+on bout.id = sv.boutique_id
+full join work.sas_temps tmp
+on tmp.id = sv.temps_id
+where tmp.annee = 2014
+group by ville;
+
+quit;run;
+
+/*Dans quelle ville fait on le plus gros chiffre d'affaire de livre en 2014*/
+title "Dans quelle ville fait on le plus gros chiffre d'affaire de livre en 2014";
+proc sgplot data=vente_boutique_temps_2014_somme;
+	vbar ville / transparency=0.6 weight=CA_VILLE; 
+run;
+
+
+/*Dans quelle region fait on le plus gros chiffre d'affaire de livre en 2014*/
+proc sql;
+create table vente_boutique_2014_somme_region as
+select sum(sv.prix) as CA_REGION, bout.region from work.sas_vente sv
+full join work.sas_boutique bout 
+on bout.id = sv.boutique_id
+full join work.sas_temps tmp
+on tmp.id = sv.temps_id
+where tmp.annee = 2014
+group by region;
+
+quit;run;
+
+/*Dans quelle region fait on le plus gros chiffre d'affaire de livre en 2014*/
+title "Dans quelle region fait on le plus gros chiffre d'affaire de livre en 2014";
+proc sgplot data=vente_boutique_2014_somme_region;
+	vbar region weight=CA_REGION / transparency=0.6 weight=CA_REGION; 
+run;
+
+proc print data=vente_boutique_2014_somme_region;
+	var region CA_REGION;
+	title "CA des regions";
+run;
+
+/*Dans quelle ville vend-on le plus de livre en 2014*/
 proc sql;
 create table vente_boutique_temps_2014 as
 select sv.id, tmp.annee, tmp.mois, bout.ville, bout.region from work.sas_vente sv
@@ -83,19 +127,20 @@ on tmp.id = sv.temps_id
 where tmp.annee = 2014;
 quit;run;
 
+
 /*Dans quelle ville vend-on le plus en 2014*/
 title "Dans quelle ville vend-on le plus en 2014";
-proc sgplot data=vente_boutique_temps;
+proc sgplot data=vente_boutique_temps_2014;
 	vbar ville / transparency=0.6 ;
 run;
 
 /*Dans quelle region vend-on le plus en 2014*/
 title "Dans quelle region vend-on le plus en 2014";
-proc sgplot data=vente_boutique_temps;
+proc sgplot data=vente_boutique_temps_2014;
 	vbar region / transparency=0.6 ;
 run;
 
-title "nombre de ville par région";
+title "nombre de ville par rÃ©gion";
 proc sgplot data=SAS_boutique;
 	vbar region / transparency=0.6 ;
 run;
