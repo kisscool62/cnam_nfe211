@@ -1,4 +1,4 @@
-data WORK.SAS_CLIENT    ;
+﻿data WORK.SAS_CLIENT    ;
  %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
  infile '/folders/myfolders/Talend_client.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 encoding='wlatin1';
  	informat id best32. ;
