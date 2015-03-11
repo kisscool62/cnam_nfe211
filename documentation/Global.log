@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.7)  9 MAR 2015 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.7)  12 MAR 2015 00:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -330,16 +330,46 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count125
+\calc@Bcount=\count126
+\calc@Adimen=\dimen133
+\calc@Bdimen=\dimen134
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count127
+\calc@Cskip=\skip54
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box54
+\AM@toc@title=\toks22
+\c@AM@survey=\count128
+\AM@templatesizebox=\box55
+)
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 44.
+(hyperref)                setting the option has no effect on input line 45.
 
-Package hyperref Info: Option `unicode' set `false' on input line 44.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 44.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 44.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 44.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 44.
-Package hyperref Info: Option `colorlinks' set `true' on input line 44.
+Package hyperref Info: Option `unicode' set `false' on input line 45.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 45.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 45.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 45.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 45.
+Package hyperref Info: Option `colorlinks' set `true' on input line 45.
 (./libs/color.tex) (./libs/commandes.tex)
 \@indexfile=\write3
 \openout3 = `Global.idx'.
@@ -352,42 +382,42 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (./libs/macros.tex) (./Global.aux)
 \openout1 = `Global.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Info: Redefining \degres on input line 102.
-LaTeX Info: Redefining \dots on input line 102.
-LaTeX Info: Redefining \up on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Info: Redefining \degres on input line 103.
+LaTeX Info: Redefining \dots on input line 103.
+LaTeX Info: Redefining \up on input line 103.
 
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 102.
+(frenchb.ldf)                of your document, on input line 103.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen133
-\scratchbox=\box54
-\nofMPsegments=\count126
-\nofMParguments=\count127
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen134
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count129
+\scratchdimen=\dimen135
+\scratchbox=\box56
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen136
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -440,20 +470,20 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count131
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring ON on input line 102.
+\c@lstlisting=\count135
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring ON on input line 103.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count132
+\c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
 
 (./Global.out) (./Global.out)
 \@outlinefile=\write4
@@ -463,14 +493,14 @@ LaTeX Info: Redefining \nameref on input line 102.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Overfull \hbox (14.53583pt too wide) in paragraph at lines 107--107
+Overfull \hbox (14.53583pt too wide) in paragraph at lines 108--108
  [][][][][][][]
  []
 
-<./images/logo.jpg, id=108, 290.08376pt x 174.6525pt>
+<./images/logo.jpg, id=124, 290.08376pt x 174.6525pt>
 File: ./images/logo.jpg Graphic file (type jpg)
  <use ./images/logo.jpg>
-Package pdftex.def Info: ./images/logo.jpg used on input line 107.
+Package pdftex.def Info: ./images/logo.jpg used on input line 108.
 (pdftex.def)             Requested size: 113.80943pt x 56.90529pt.
 
 [1
@@ -491,10 +521,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [3] (./texte/Intro.tex
 Chapitre 1.
-<images/chaine.png, id=155, 523.9575pt x 263.48438pt>
+<images/chaine.png, id=176, 523.9575pt x 263.48438pt>
 File: images/chaine.png Graphic file (type png)
  <use images/chaine.png>
-Package pdftex.def Info: images/chaine.png used on input line 12.
+Package pdftex.def Info: images/chaine.png used on input line 13.
 (pdftex.def)             Requested size: 341.43979pt x 227.63342pt.
 
 [4
@@ -502,7 +532,7 @@ Package pdftex.def Info: images/chaine.png used on input line 12.
 
  <./images/chaine.png>]) (./texte/Partie1.tex
 Chapitre 2.
-<./images/library.png, id=164, 384.6872pt x 385.44pt>
+<./images/library.png, id=185, 384.6872pt x 385.44pt>
 File: ./images/library.png Graphic file (type png)
 
 <use ./images/library.png>
@@ -520,7 +550,7 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 ) [6])
 (./texte/Partie2.tex
 Chapitre 3.
-<images/Talend.png, id=183, 298.86656pt x 298.86656pt>
+<images/Talend.png, id=203, 298.86656pt x 298.86656pt>
 File: images/Talend.png Graphic file (type png)
  <use images/Talend.png>
 Package pdftex.def Info: images/Talend.png used on input line 13.
@@ -530,7 +560,7 @@ Package pdftex.def Info: images/Talend.png used on input line 13.
 
 
 ] [8 <./images/Talend.png>]
-<images/db_connection.PNG, id=204, 132.495pt x 201.00093pt>
+<images/db_connection.PNG, id=224, 132.495pt x 201.00093pt>
 File: images/db_connection.PNG Graphic file (type png)
 
 <use images/db_connection.PNG>
@@ -541,7 +571,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--98
 
  []
 
-[9] <images/csv.PNG, id=215, 502.12593pt x 175.40532pt>
+[9] <images/csv.PNG, id=235, 502.12593pt x 175.40532pt>
 File: images/csv.PNG Graphic file (type png)
  <use images/csv.PNG>
 Package pdftex.def Info: images/csv.PNG used on input line 99.
@@ -550,21 +580,21 @@ Package pdftex.def Info: images/csv.PNG used on input line 99.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
-<images/ville_mappingcsv.PNG, id=216, 512.66531pt x 200.24812pt>
+<images/ville_mappingcsv.PNG, id=236, 512.66531pt x 200.24812pt>
 File: images/ville_mappingcsv.PNG Graphic file (type png)
 
 <use images/ville_mappingcsv.PNG>
 Package pdftex.def Info: images/ville_mappingcsv.PNG used on input line 108.
 (pdftex.def)             Requested size: 307.60155pt x 120.1498pt.
  [10 <./images/db_connection.PNG> <./images/csv.PNG>] <images/dimension_livre.P
-NG, id=225, 530.73282pt x 198.7425pt>
+NG, id=245, 530.73282pt x 198.7425pt>
 File: images/dimension_livre.PNG Graphic file (type png)
 
 <use images/dimension_livre.PNG>
 Package pdftex.def Info: images/dimension_livre.PNG used on input line 117.
 (pdftex.def)             Requested size: 318.44214pt x 119.24641pt.
 
-<images/dimension_client.PNG, id=226, 389.95688pt x 73.02281pt>
+<images/dimension_client.PNG, id=246, 389.95688pt x 73.02281pt>
 File: images/dimension_client.PNG Graphic file (type png)
 
 <use images/dimension_client.PNG>
@@ -576,7 +606,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
  []
 
 [11 <./images/ville_mappingcsv.PNG> <./images/dimension_livre.PNG>]
-<images/dimension_temps.PNG, id=237, 823.57687pt x 59.47218pt>
+<images/dimension_temps.PNG, id=257, 823.57687pt x 59.47218pt>
 File: images/dimension_temps.PNG Graphic file (type png)
 
 <use images/dimension_temps.PNG>
@@ -587,7 +617,7 @@ Overfull \hbox (53.13219pt too wide) in paragraph at lines 132--135
 [][] 
  []
 
-<images/table_faits_vente.PNG, id=238, 531.48563pt x 467.49657pt>
+<images/table_faits_vente.PNG, id=258, 531.48563pt x 467.49657pt>
 File: images/table_faits_vente.PNG Graphic file (type png)
 
 <use images/table_faits_vente.PNG>
@@ -600,9 +630,9 @@ Chapitre 4.
 [14
 
 
-]) (./texte/Conclusion.tex
+] [15]) (./texte/Conclusion.tex
 Chapitre 5.
-) (./texte/annexe.tex [15
+) (./texte/annexe.tex [16
 
 
 ]
@@ -619,7 +649,7 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textless' on input line 6.
 
-[16
+[17
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmss on input line 27.
@@ -631,7 +661,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textasteriskcentered' on input line 27.
 
-[17]
+[18]
 Overfull \hbox (2.75229pt too wide) in paragraph at lines 79--81
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -641,49 +671,276 @@ Overfull \hbox (369.35165pt too wide) in paragraph at lines 81--82
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [18] (./texte/toTrancheDage.java))
-No file Global.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
-[19
+) [19] (./texte/toTrancheDage.java)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(./texte/import.sas
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 2.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
+(Font)              using `OMS/cmss/m/n' instead
+(Font)              for symbol `textasteriskcentered' on input line 2.
+
+[20
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[][][][][][][][][][][][][][][][][][][][]
+ []
+
+[21] [22]
+Overfull \hbox (122.60208pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./texte/reporting.sas [23] [24] [25] [26] [27] [28])
+<./images/sas_report/age_vente_livre.png, id=758, 481.8pt x 361.35pt>
+File: ./images/sas_report/age_vente_livre.png Graphic file (type png)
+
+<use ./images/sas_report/age_vente_livre.png>
+Package pdftex.def Info: ./images/sas_report/age_vente_livre.png used on input 
+line 29.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/tranche_age_livre.png, id=759, 481.8pt x 361.35pt>
+File: ./images/sas_report/tranche_age_livre.png Graphic file (type png)
+
+<use ./images/sas_report/tranche_age_livre.png>
+Package pdftex.def Info: ./images/sas_report/tranche_age_livre.png used on inpu
+t line 30.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/ville_2014.png, id=760, 481.8pt x 361.35pt>
+File: ./images/sas_report/ville_2014.png Graphic file (type png)
+
+<use ./images/sas_report/ville_2014.png>
+Package pdftex.def Info: ./images/sas_report/ville_2014.png used on input line 
+31.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/ville_2014-frequence.png, id=761, 481.8pt x 361.35pt>
+File: ./images/sas_report/ville_2014-frequence.png Graphic file (type png)
+
+<use ./images/sas_report/ville_2014-frequence.png>
+Package pdftex.def Info: ./images/sas_report/ville_2014-frequence.png used on i
+nput line 32.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/region_2014.png, id=762, 481.8pt x 361.35pt>
+File: ./images/sas_report/region_2014.png Graphic file (type png)
+
+<use ./images/sas_report/region_2014.png>
+Package pdftex.def Info: ./images/sas_report/region_2014.png used on input line
+ 33.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/table_sas.PNG, id=763, 167.87718pt x 105.39375pt>
+File: ./images/sas_report/table_sas.PNG Graphic file (type png)
+
+<use ./images/sas_report/table_sas.PNG>
+Package pdftex.def Info: ./images/sas_report/table_sas.PNG used on input line 3
+4.
+(pdftex.def)             Requested size: 117.51321pt x 73.7751pt.
+
+<./images/sas_report/nb_ville_region.png, id=764, 481.8pt x 361.35pt>
+File: ./images/sas_report/nb_ville_region.png Graphic file (type png)
+
+<use ./images/sas_report/nb_ville_region.png>
+Package pdftex.def Info: ./images/sas_report/nb_ville_region.png used on input 
+line 35.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_1.png, id=765, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_1.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_1.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_1.png used on input lin
+e 36.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_2.png, id=766, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_2.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_2.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_2.png used on input lin
+e 37.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_3.png, id=767, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_3.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_3.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_3.png used on input lin
+e 38.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_4.png, id=768, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_4.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_4.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_4.png used on input lin
+e 39.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_5.png, id=769, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_5.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_5.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_5.png used on input lin
+e 40.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_6.png, id=770, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_6.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_6.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_6.png used on input lin
+e 41.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_7.png, id=771, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_7.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_7.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_7.png used on input lin
+e 42.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_8.png, id=772, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_8.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_8.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_8.png used on input lin
+e 43.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+
+<./images/sas_report/sas_report_9.png, id=773, 481.8pt x 361.35pt>
+File: ./images/sas_report/sas_report_9.png Graphic file (type png)
+
+<use ./images/sas_report/sas_report_9.png>
+Package pdftex.def Info: ./images/sas_report/sas_report_9.png used on input lin
+e 44.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--141
+[]
+ []
+
+[29 <./images/sas_report/age_vente_livre.png (PNG copy)>] [30 <./images/sas_rep
+ort/tranche_age_livre.png (PNG copy)> <./images/sas_report/ville_2014.png (PNG 
+copy)>] [31 <./images/sas_report/ville_2014-frequence.png (PNG copy)> <./images
+/sas_report/region_2014.png (PNG copy)>] [32 <./images/sas_report/table_sas.PNG
+> <./images/sas_report/nb_ville_region.png (PNG copy)> <./images/sas_report/sas
+_report_1.png (PNG copy)>] [33 <./images/sas_report/sas_report_2.png (PNG copy)
+> <./images/sas_report/sas_report_3.png (PNG copy)>] [34 <./images/sas_report/s
+as_report_4.png (PNG copy)> <./images/sas_report/sas_report_5.png (PNG copy)>]
+[35 <./images/sas_report/sas_report_6.png (PNG copy)> <./images/sas_report/sas_
+report_7.png (PNG copy)>]
+No file Global.ind.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+[36 <./images/sas_report/sas_report_8.png (PNG copy)> <./images/sas_report/sas_
+report_9.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./Global.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package rerunfilecheck Info: File `Global.out' has not changed.
+(rerunfilecheck)             Checksum: 0CD55FDA85FD2359728357B1B1DC9453;2082.
 
-
-Package rerunfilecheck Warning: File `Global.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Global.out':
-(rerunfilecheck)             Before: 16CE7EBE4CAA938CCCA3E730BA6A04EA;1873
-(rerunfilecheck)             After:  75598F9D0E85D9E1A9AB2EBD829C890B;1964.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 10317 strings out of 493109
- 146519 string characters out of 6135005
- 283255 words of memory out of 5000000
- 13427 multiletter control sequences out of 15000+600000
- 9252 words of font info for 33 fonts, out of 8000000 for 9000
+ 11731 strings out of 493109
+ 169240 string characters out of 6135005
+ 302863 words of memory out of 5000000
+ 14477 multiletter control sequences out of 15000+600000
+ 9611 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,6n,49p,657b,1992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,7n,49p,924b,2177s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Global.pdf (19 pages, 229942 bytes).
+Output written on Global.pdf (36 pages, 443216 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 409 compressed objects within 5 object streams
- 190 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 949 PDF objects out of 1000 (max. 8388607)
+ 852 compressed objects within 9 object streams
+ 509 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
