@@ -1,55 +1,4 @@
-data WORK.SAS_CLIENT    ;
- %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
- infile '/folders/myfolders/Talend_client.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 encoding='wlatin1';
- 	informat id best32. ;
- 	informat prenom $9. ;
- 	informat age best32. ;
- 	informat tranche_age $5. ;
- 	format id best32. ;
- 	format prenom $9. ;
- 	format age best32. ;
- 	format tranche_age $5. ;
- input
- 	id
- 	prenom $
- 	age
- 	tranche_age $
- 	;
- 	if _ERROR_ then call symputx('_EFIERR_',1);  /* set ERROR detection macro variable */
- run;
- 
-PROC IMPORT
-DATAFILE="/folders/myfolders/Talend_vente.csv"
-out=sas_vente
-DBMS=CSV
 
-replace 
-;
-GETNAMES=YES;
-
-run;
-
-PROC IMPORT
-DATAFILE="/folders/myfolders/Talend_temps.csv"
-out=sas_temps
-DBMS=CSV
-
-replace 
-;
-GETNAMES=YES;
-
-run;
-
-PROC IMPORT
-DATAFILE="/folders/myfolders/Talend_boutique.csv"
-out=sas_boutique
-DBMS=CSV
-
-replace 
-;
-GETNAMES=YES;
-
-run;
 
 /*Quelle age achete le plus de livre*/
 proc sql;
@@ -75,7 +24,7 @@ run;
 /*Dans quelle ville fait on le plus gros chiffre d'affaire de livre en 2014*/
 proc sql;
 create table vente_boutique_temps_2014_somme as
-select sv.id, tmp.annee, tmp.mois, sum(sv.prix) as CA_VILLE, bout.ville from work.sas_vente sv
+select bout.ville, sum(sv.prix) as CA_VILLE from work.sas_vente sv
 full join work.sas_boutique bout 
 on bout.id = sv.boutique_id
 full join work.sas_temps tmp
@@ -88,19 +37,19 @@ quit;run;
 /*Dans quelle ville fait on le plus gros chiffre d'affaire de livre en 2014*/
 title "Dans quelle ville fait on le plus gros chiffre d'affaire de livre en 2014";
 proc sgplot data=vente_boutique_temps_2014_somme;
-	vbar ville / transparency=0.6 weight=CA_VILLE; 
+	vbar ville / transparency=0.6 response=CA_VILLE; 
 run;
 
 
 /*Dans quelle region fait on le plus gros chiffre d'affaire de livre en 2014*/
 proc sql;
 create table vente_boutique_2014_somme_region as
-select sum(sv.prix) as CA_REGION, bout.region from work.sas_vente sv
-full join work.sas_boutique bout 
-on bout.id = sv.boutique_id
-full join work.sas_temps tmp
-on tmp.id = sv.temps_id
+select bout.region, sum(sv.prix) as CA_REGION 
+from work.sas_vente sv, work.sas_boutique bout, work.sas_temps tmp 
 where tmp.annee = 2014
+and bout.id = sv.boutique_id
+and tmp.id = sv.temps_id
+
 group by region;
 
 quit;run;
@@ -108,7 +57,7 @@ quit;run;
 /*Dans quelle region fait on le plus gros chiffre d'affaire de livre en 2014*/
 title "Dans quelle region fait on le plus gros chiffre d'affaire de livre en 2014";
 proc sgplot data=vente_boutique_2014_somme_region;
-	vbar region weight=CA_REGION / transparency=0.6 weight=CA_REGION; 
+	vbar region / transparency=0.6 response=CA_REGION; 
 run;
 
 proc print data=vente_boutique_2014_somme_region;
@@ -174,4 +123,76 @@ quit;run;
 title "Comment evoluent les ventes dans le temps";
 proc sgplot data=vente_temps ;
 	vbar annee/ transparency=0.6 ;
+run;
+
+/*Comment sont répartis les achats de livres*/
+proc sql;
+create table vente_livre as
+select sas_vente.id, nom, genre 
+from sas_vente
+inner join sas_livre
+on sas_livre.id = sas_vente.livre_id;
+quit;run;
+
+/*Comment sont répartis les achats de livres*/
+title "Comment sont répartis les achats de livres";
+proc sgplot data=vente_livre;
+	vbar nom / transparency=0.6;
+run;
+
+/*Comment sont répartis les achats de livres*/
+proc sql;
+create table vente_livre_somme as
+select nom, sum(prix) as CA_LIVRE 
+from sas_vente
+inner join sas_livre
+on sas_livre.id = sas_vente.livre_id
+group by nom;
+quit;run;
+
+/*Comment sont répartis les achats de livres*/
+title "Comment sont répartis les achats de livres";
+proc sgplot data=vente_livre_somme;
+	vbar nom / transparency=0.2 response=CA_LIVRE;
+run;
+
+
+/*Comment sont répartis les achats de livres*/
+title "Comment sont répartis les achats de livres";
+proc sgplot data=vente_livre;
+	vbar genre/ transparency=0.6;
+run;
+
+/*Comment sont répartis les achats de livres par genre*/
+proc sql;
+create table vente_livre_somme_genre as
+select genre, sum(prix) as CA_LIVRE 
+from sas_vente
+inner join sas_livre
+on sas_livre.id = sas_vente.livre_id
+group by genre;
+quit;run;
+
+/*Comment sont répartis les achats de livres par genre*/
+title "Comment sont répartis les achats de livres par genre";
+proc sgplot data=vente_livre_somme_genre;
+	vbar genre / transparency=0.2 response=CA_LIVRE;
+run;
+
+/*Comment sont répartis les achats de livres par genre et par annee*/
+proc sql;
+create table vente_livre_annee_genre as
+select annee, genre, sum(prix) as CA_LIVRE 
+from sas_vente
+inner join sas_livre
+on sas_livre.id = sas_vente.livre_id
+inner join sas_temps
+on sas_vente.temps_id = sas_temps.id
+group by annee, genre;
+quit;run;
+
+/*Comment sont répartis les achats de livres par genre et par annee*/
+title "Comment sont répartis les achats de livres par genre et par annee";
+proc sgplot data=vente_livre_annee_genre ;
+	vbar annee/ transparency=0.2 group=genre groupdisplay=cluster response=CA_LIVRE;
 run;
