@@ -19,8 +19,8 @@
 \contentsline {paragraph}{Dimension Temps}{9}{section*.11}
 \contentsline {subparagraph}{hi\IeC {\'e}rarchie}{9}{section*.12}
 \contentsline {section}{\numberline {3.2}Int\IeC {\'e}gration avec TALEND}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}T\IeC {\'e}l\IeC {\'e}chargement Installation}{9}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}M\IeC {\'e}thode utilis\IeC {\'e}e}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.1}Pr\IeC {\'e}sentation}{9}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}M\IeC {\'e}thodologie utilis\IeC {\'e}e}{9}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Configuration des sources de donn\IeC {\'e}es}{10}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Dimension Boutique}{10}{subsection.3.2.4}
 \contentsline {subsubsection}{Difficult\IeC {\'e} test\IeC {\'e}e}{10}{section*.13}
@@ -41,7 +41,7 @@
 \contentsline {chapter}{\numberline {4}Reporting}{14}{chapter.4}
 \contentsline {section}{\numberline {4.1}SAS}{14}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Pr\IeC {\'e}sentation}{14}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Fonctionnement}{14}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}M\IeC {\'e}thodologie utilis\IeC {\'e}e}{14}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Conclusions sur l'utilisation de SAS}{15}{subsection.4.1.3}
 \contentsline {chapter}{\numberline {5}Conclusion}{16}{chapter.5}
 \contentsline {chapter}{\numberline {A}Annexes}{17}{appendix.A}
