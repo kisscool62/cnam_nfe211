@@ -1,8 +1,19 @@
 \begin{thebibliography}{1}
 
-\bibitem{cle}
-moi.
-\newblock mon titre.
-\newblock {\em journal}, 1982.
+\bibitem{coursNFE211}
+Elisabeth Metais.
+\newblock cours nfe211.
+\newblock \url{http://idf.pleiad.net}.
+
+\bibitem{SAS}
+SAS.
+\newblock Sas manuals (account required).
+\newblock
+  \url{http://www.sas.com/en_us/software/university-edition.html#for-students-learners}.
+
+\bibitem{talendDataIntegration}
+Talend.
+\newblock Talend documentation.
+\newblock \url{http://www.talend.com/products/data-integration}.
 
 \end{thebibliography}
